@@ -6,14 +6,14 @@ FROM students
 WHERE age > 18 AND age < 20;
 
 ## Q2 Write a query to display all of those students that contain the letters "ch" in their name or 
--- their name ends with the letters  "nd".
+## their name ends with the letters  "nd".
 
 SELECT * FROM students
 WHERE student_name LIKE '%ch%'
 OR student_name LIKE '%nd';
 
 ## Q3 Write a query to display the name of those students that have the letters "ae" or "ph" in their 
--- name and are NOT 19 years old.
+## name and are NOT 19 years old.
 
 SELECT student_name FROM students
 WHERE NOT age = 19
@@ -32,9 +32,9 @@ ORDER BY age DESC
 LIMIT 4;
 
 ## Q6 Write a query that returns students based on the following criteria: 
-The student must not be older than age 20 if their student_no is either between 3 and 5 or their 
-student_no is 7. Your query should also return students older than age 20 but in that case they 
-must have a student_no that is at least 4.
+## The student must not be older than age 20 if their student_no is either between 3 and 5 or their 
+## student_no is 7. Your query should also return students older than age 20 but in that case they 
+## must have a student_no that is at least 4.
  
 SELECT * FROM students
 WHERE age < 20
