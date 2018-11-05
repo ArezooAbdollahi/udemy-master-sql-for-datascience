@@ -1,3 +1,5 @@
 # My-Postgre-SQL-files
-Comprises of my assignment solutions encountered while taking
-* Master SQL for Datascience by Imtiaz Ahmad, Senior Software Engineer & Trainer on Udemy
+
+Comprises of  assignment questions with my solution attempts while taking :
+* Master SQL for Datascience by Imtiaz Ahmad, Senior Software Engineer & Trainer @ Job Ready
+Programmer on Udemy.
